@@ -1,0 +1,27 @@
+[package]
+name = "ffrostfall/meowql"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+license = "MIT"
+
+realm = "shared"
+exclude = [
+	".github",
+	".lune",
+	".vscode",
+	"docs",
+	"node_modules",
+	"tests",
+	".gitattributes",
+	".gitignore",
+	".styluaignore",
+	"CONTRIBUTING.md",
+	"package-lock.json",
+	"package.json",
+	"roblox-tests.project.json",
+	"rokit.toml",
+	"stylua.toml",
+	"gh-assets",
+]
+
+[dependencies]

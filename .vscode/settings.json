@@ -1,0 +1,29 @@
+{
+	"[luau]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "JohnnyMorganz.stylua"
+	},
+
+	"stylua.targetReleaseVersion": "latest",
+	
+	"luau-lsp.fflags.enableNewSolver": true,
+	"luau-lsp.completion.imports.enabled": true,
+
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"prettier.useTabs": true,
+	
+	"luau-lsp.completion.imports.stringRequires.enabled": true,
+	
+	"luau-lsp.platform.type": "standard",
+	
+	"luau-lsp.sourcemap.enabled": false,
+
+	"luau-lsp.ignoreGlobs": [
+		"**/_Index/**",
+		"build/**",
+		"vendor/**",
+		"types/**"
+	],
+	"editor.formatOnSave": true
+}
