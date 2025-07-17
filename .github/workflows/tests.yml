@@ -25,7 +25,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: ffrostfall/feowter
+          repository: ffrostfall/meowql
 
       - name: Setup Rokit
         uses: CompeyDev/setup-rokit@v0.1.0
